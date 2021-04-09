@@ -13,13 +13,16 @@ SECRET_KEY = 'v+a84v^k%0c47qn)rr22swj@vuze4s0qo(!&#2mha7jkm$qoj%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '74.208.251.128', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', 'fastprepusa.com', '74.208.251.128', '127.0.0.1']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
     "http://localhost:8000",
     "https://fastprepusa.netlify.app",
-    "http://188.225.36.187:8080"
+    "http://188.225.36.187:8080",
+    "http://fastprepusa.com",
+    "http://fastprepusa.com:3000",
+    "http://fastprepusa.com:8080",
 ]
 
 
