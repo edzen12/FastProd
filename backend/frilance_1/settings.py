@@ -17,12 +17,7 @@ ALLOWED_HOSTS = ['localhost', 'fastprepusa.com', '74.208.251.128', '127.0.0.1']
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
-    "http://localhost:8000",
-    "https://fastprepusa.netlify.app",
-    "http://188.225.36.187:8080",
     "http://fastprepusa.com",
-    "http://fastprepusa.com:3000",
-    "http://fastprepusa.com:8080",
 ]
 
 
