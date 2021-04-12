@@ -9,6 +9,7 @@ class Service(models.Model):
         blank=True, null=True,
         help_text="можно взять из сайта  https://www.flaticon.com/"
     )
+    description = models.TextField(verbose_name="Описание", blank=True, null=True)
 
     def __str__(self):
         return self.title

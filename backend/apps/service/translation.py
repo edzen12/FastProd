@@ -7,7 +7,7 @@ from apps.tarif.models import DataTarif, Tarif
 
 @register(Service)
 class ServiceTranslationOption(TranslationOptions):
-    fields = ('title',)
+    fields = ('title', 'description')
 
 
 @register(DataTarif)
