@@ -20,5 +20,5 @@ class SocialTranslationOption(TranslationOptions):
 
 @register(Tarif)
 class TarifTranslationOption(TranslationOptions):
-    fields = ('name', 'price')
+    fields = ('name', 'price', 'cause_time')
 
