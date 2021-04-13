@@ -18,12 +18,6 @@ class Tarif(models.Model):
         blank=True, null=True,
         help_text="$25.00, от $370.00, комиссия х2, Бесплатно, от $35.00 в час, 5.00 %, от $0.30 - до $0.60"
     )
-    cause_time = models.CharField(
-        verbose_name="На кол-во/Время", 
-        max_length=255,
-        blank=True, null=True,
-        help_text="за коробку, на поддон / мес, по звонку, на единицу"
-    )
 
     data_tarif = models.ForeignKey(
         DataTarif, verbose_name="Тариф", 

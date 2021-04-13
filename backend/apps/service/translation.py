@@ -7,7 +7,7 @@ from apps.tarif.models import DataTarif, Tarif
 
 @register(Service)
 class ServiceTranslationOption(TranslationOptions):
-    fields = ('title', 'description')
+    fields = ('title', )
 
 
 @register(DataTarif)
@@ -20,5 +20,5 @@ class SocialTranslationOption(TranslationOptions):
 
 @register(Tarif)
 class TarifTranslationOption(TranslationOptions):
-    fields = ('name', 'price', 'cause_time')
+    fields = ('name', 'price')
 
