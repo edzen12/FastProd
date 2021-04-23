@@ -9,7 +9,8 @@ class DataTarifAdmin(admin.TabularInline):
 
 
 class TarifAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['name', 'price', 'data_tarif']
+    save_on_top = True
 
 
 class DataTarifAdmin(admin.ModelAdmin): 
